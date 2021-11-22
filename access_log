@@ -1,0 +1,41 @@
+localhost - - [22/Nov/2021:11:57:09 +0530] "POST / HTTP/1.1" 200 349 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:11:57:09 +0530] "POST / HTTP/1.1" 200 176 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:11:57:14 +0530] "POST / HTTP/1.1" 200 359 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:11:59:22 +0530] "POST / HTTP/1.1" 200 362 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:11:59:23 +0530] "POST / HTTP/1.1" 200 151 Cancel-Subscription successful-ok
+localhost - - [22/Nov/2021:11:59:23 +0530] "POST / HTTP/1.1" 200 151 Cancel-Subscription client-error-not-found
+localhost - - [22/Nov/2021:12:00:36 +0530] "POST / HTTP/1.1" 200 359 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:12:01:14 +0530] "POST / HTTP/1.1" 200 362 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:12:01:16 +0530] "POST / HTTP/1.1" 200 151 Cancel-Subscription successful-ok
+localhost - - [22/Nov/2021:12:01:16 +0530] "POST / HTTP/1.1" 200 151 Cancel-Subscription client-error-not-found
+localhost - - [22/Nov/2021:12:14:27 +0530] "POST /admin/ HTTP/1.1" 401 276 CUPS-Add-Modify-Printer successful-ok
+localhost - deepak [22/Nov/2021:12:14:27 +0530] "POST /admin/ HTTP/1.1" 200 276 CUPS-Add-Modify-Printer successful-ok
+localhost - - [22/Nov/2021:12:23:15 +0530] "POST /admin/ HTTP/1.1" 401 269 CUPS-Add-Modify-Printer successful-ok
+localhost - deepak [22/Nov/2021:12:23:15 +0530] "POST /admin/ HTTP/1.1" 200 269 CUPS-Add-Modify-Printer server-error-internal-error
+localhost - - [22/Nov/2021:12:23:50 +0530] "POST / HTTP/1.1" 200 55391 CUPS-Get-PPD -
+localhost - - [22/Nov/2021:12:23:51 +0530] "POST /admin/ HTTP/1.1" 401 55444 CUPS-Add-Modify-Printer successful-ok
+localhost - deepak [22/Nov/2021:12:23:51 +0530] "POST /admin/ HTTP/1.1" 200 55444 CUPS-Add-Modify-Printer successful-ok
+localhost - - [22/Nov/2021:12:39:45 +0530] "POST /printers/aakash HTTP/1.1" 200 326 Create-Job successful-ok
+localhost - - [22/Nov/2021:12:39:45 +0530] "POST /printers/aakash HTTP/1.1" 200 4250 Send-Document successful-ok
+localhost - - [22/Nov/2021:12:40:53 +0530] "POST /printers/hritik HTTP/1.1" 200 326 Create-Job successful-ok
+localhost - - [22/Nov/2021:12:40:53 +0530] "POST /printers/hritik HTTP/1.1" 200 4250 Send-Document successful-ok
+localhost - - [22/Nov/2021:12:40:56 +0530] "POST / HTTP/1.1" 200 346 Create-Printer-Subscriptions successful-ok
+localhost - - [22/Nov/2021:12:40:56 +0530] "POST / HTTP/1.1" 200 3953370 CUPS-Get-PPDs -
+localhost - - [22/Nov/2021:12:41:03 +0530] "POST / HTTP/1.1" 200 154 Cancel-Subscription successful-ok
+localhost - - [22/Nov/2021:12:41:03 +0530] "POST / HTTP/1.1" 200 154 Cancel-Subscription client-error-not-found
+localhost - - [22/Nov/2021:12:47:06 +0530] "POST /jobs HTTP/1.1" 401 139 Cancel-Job successful-ok
+localhost - - [22/Nov/2021:12:47:16 +0530] "POST /jobs HTTP/1.1" 200 140 Cancel-Job successful-ok
+localhost - - [22/Nov/2021:12:47:24 +0530] "POST /jobs HTTP/1.1" 200 140 Cancel-Job successful-ok
+localhost - - [22/Nov/2021:12:59:35 +0530] "POST / HTTP/1.1" 200 185 Renew-Subscription successful-ok
+localhost - - [22/Nov/2021:13:12:26 +0530] "POST /admin/ HTTP/1.1" 401 153 CUPS-Delete-Printer successful-ok
+localhost - deepak [22/Nov/2021:13:12:26 +0530] "POST /admin/ HTTP/1.1" 200 153 CUPS-Delete-Printer successful-ok
+localhost - - [22/Nov/2021:13:12:37 +0530] "POST /admin/ HTTP/1.1" 401 153 CUPS-Delete-Printer successful-ok
+localhost - deepak [22/Nov/2021:13:12:37 +0530] "POST /admin/ HTTP/1.1" 200 153 CUPS-Delete-Printer successful-ok
+This comment was added by Deepak Khatri 
+ localhost - - [22/Nov/2021:13:18:47 +0530] "POST /admin/ HTTP/1.1" 401 242 CUPS-Add-Modify-Printer successful-ok
+This comment was added by Deepak Khatri 
+ localhost - deepak [22/Nov/2021:13:18:47 +0530] "POST /admin/ HTTP/1.1" 200 242 CUPS-Add-Modify-Printer successful-ok
+This comment was added by Deepak Khatri 
+ localhost - - [22/Nov/2021:13:19:57 +0530] "POST /printers/testing1 HTTP/1.1" 200 328 Create-Job successful-ok
+This comment was added by Deepak Khatri 
+ localhost - - [22/Nov/2021:13:19:57 +0530] "POST /printers/testing1 HTTP/1.1" 200 4252 Send-Document successful-ok
