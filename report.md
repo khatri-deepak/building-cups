@@ -1,5 +1,5 @@
-CREATING QUEUES AND PRINTING COMMENTS IN LOG FILE - 2020-06-02
-==============================================================
+CREATING QUEUES AND PRINTING COMMENTS IN LOG FILE 
+=================================================
 
 This file describes the approach of adding comments in CUPS files and printing 
 them in default log files.
